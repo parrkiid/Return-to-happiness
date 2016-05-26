@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160526 00:59:00.524" generator="Robot 3.0 (Python 2.7.10 on darwin)">
+<suite source="/Users/parrkiid/Documents/workspace/ATDD/helloNewMacbook.txt" id="s1" name="helloNewMacbook">
+<test id="s1-t1" name="Hello">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.google.com</arg>
+</arguments>
+<msg timestamp="20160526 00:59:00.923" level="INFO">Opening browser 'firefox' to base url 'http://www.google.com'</msg>
+<status status="PASS" endtime="20160526 00:59:08.343" starttime="20160526 00:59:00.922"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20160526 00:59:08.446" starttime="20160526 00:59:08.344"></status>
+</kw>
+<status status="PASS" endtime="20160526 00:59:08.447" critical="yes" starttime="20160526 00:59:00.919"></status>
+</test>
+<status status="PASS" endtime="20160526 00:59:08.448" starttime="20160526 00:59:00.527"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="helloNewMacbook" pass="1">helloNewMacbook</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
